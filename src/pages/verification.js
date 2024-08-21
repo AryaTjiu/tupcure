@@ -7,6 +7,7 @@ import Head from "next/head";
 import { doc, updateDoc } from "firebase/firestore";
 import { useRouter } from "next/router";
 import ErrorAlertSection from "@/components/ui/errorAlertSection";
+import { useState } from "react";
 
 const VerificationSection = () => {
     const [isVerificationEmailHasSent, setIsVerificationEmailHasSent] = useState(false);
