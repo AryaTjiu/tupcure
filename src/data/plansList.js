@@ -9,7 +9,7 @@ export const plansListData = [
             "save your password",
             "always free"
         ],
-        link : "#"
+        link : "/signup"
     },
     {
         bestValue: true,

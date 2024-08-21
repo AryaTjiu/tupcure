@@ -9,7 +9,6 @@ import { useRouter } from "next/router"
 import { useState } from "react"
 import validator from "validator";
 import { compareBetweenPlainAndHashedText } from "@/functions/password"
-import { sendEmailVerification } from "firebase/auth"
 
 const Signup = () => {
     const router = useRouter();
@@ -46,9 +45,9 @@ const Signup = () => {
                 if(result.code == "auth/email-already-in-use") {
                     setError({type : "auth_error", message : "Email is already in use"})
                 } else if(result.code == "user-already-authenticated") {
-                    setError({type : "auth_error", message : result.message})
+                    setError({type : "auth_error", message : "something went wrong, try again later!"})
                 } else {
-                    setError({type : "server_error", message : result.message})
+                    setError({type : "server_error", message : "something went wrong, try again later!"})
                 }
             } else {
                 router.push("/dashboard");

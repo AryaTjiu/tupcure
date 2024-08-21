@@ -1,6 +1,6 @@
 import { faCircleXmark } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 
 const AlertSection = ({text, setTextAlertValue}) => {
     const alertRef = useRef();

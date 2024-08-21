@@ -81,15 +81,19 @@ export function HeroSection() {
                 </p>
                 <div className="flex flex-col space-y-3">
                     <div className="text-sm space-y-2 md:space-x-5">
-                        <button className="w-full md:w-fit bg-purple-1 border border-purple-1 px-8 py-3 text-white hover:bg-transparent  hover:text-black duration-200">
-                            Start free
-                        </button>
-                        <button className="w-full md:w-fit border border-purple-1 px-8 py-3 text-purple-1 hover:text-white hover:bg-purple-1 duration-200">
-                            View plans and pricing
-                        </button>
+                        <Link href={"/signup"}>
+                            <button className="w-full md:w-fit bg-purple-1 border border-purple-1 px-8 py-3 text-white hover:bg-transparent  hover:text-black duration-200">
+                                Start free
+                            </button>
+                        </Link>
+                        <Link href={"#price"}>
+                            <button className="w-full md:w-fit border border-purple-1 px-8 py-3 text-purple-1 hover:text-white hover:bg-purple-1 duration-200">
+                                View plans and pricing
+                            </button>
+                        </Link>
                     </div>
                     <span className="text-sm text-neutral-700">
-                        Need help? Feel free to <Link href={"#"} className="text-purple-1 border-b border-purple-1">Email us</Link>
+                        Need help? Feel free to <Link href={"mailto:tuppsoftware@gmail.com"} className="text-purple-1 border-b border-purple-1">Email us</Link>
                     </span>
                 </div>
             </div>

@@ -1,6 +1,6 @@
 import { faCircleXmark } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 
 const ErrorAlertSection = ({data, setData}) => {
     const alertRef = useRef();
@@ -38,7 +38,7 @@ const ErrorAlertSection = ({data, setData}) => {
     }
     
     return (
-        <section className={`absolute px-5 xl:px-10 h-16 xl:h-20 bottom-10 -left-full border w-[80vw] xl:min-w-96 bg-[#ff003c] text-white flex justify-between items-center space-x-4 rounded-md text-sm xl:text-lg duration-150`} ref={alertRef}>
+        <section className={`absolute px-5 xl:px-10 h-16 xl:h-20 bottom-10 -left-full border w-[80vw] xl:w-96 bg-[#ff003c] text-white flex justify-between items-center space-x-4 rounded-md text-sm xl:text-lg duration-150`} ref={alertRef}>
             <span>
                 {data.message}
             </span>

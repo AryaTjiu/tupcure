@@ -1,16 +1,12 @@
 import MainNavbar from "@/components/ui/mainNavbar";
 import { useAuthContext } from "@/context/AuthContext";
-import { faPaperPlane, faPlane, faRefresh } from "@fortawesome/free-solid-svg-icons";
+import { faPaperPlane, faRefresh } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { getAuth, sendEmailVerification } from "firebase/auth";
+import { sendEmailVerification } from "firebase/auth";
 import Head from "next/head";
-import { useEffect, useState } from "react";
-import handler from "./api/decryption";
 import { doc, updateDoc } from "firebase/firestore";
 import { useRouter } from "next/router";
-import AlertSection from "@/components/ui/alertSection";
 import ErrorAlertSection from "@/components/ui/errorAlertSection";
-import firebase from "@/lib/firebase";
 
 const VerificationSection = () => {
     const [isVerificationEmailHasSent, setIsVerificationEmailHasSent] = useState(false);

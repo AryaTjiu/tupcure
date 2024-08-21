@@ -1,4 +1,4 @@
-import { faFacebook, faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
@@ -20,12 +20,12 @@ const MainFooter = () => {
                         ANOTHER PROJECT
                     </span>
                     <ul className="flex flex-col space-y-2">
-                        <Link href={"#"} className="hover:text-purple-1 duration-200 w-fit text-sm text-neutral-300">    
+                        <Link href={"https://cornqr.vercel.app/"} className="hover:text-purple-1 duration-200 w-fit text-sm text-neutral-300">    
                             <li>
                                 Corn QR
                             </li>
                         </Link>
-                        <Link href={"#"} className="hover:text-purple-1 duration-200 w-fit text-sm text-neutral-300">    
+                        <Link href={"https://cinehunt.vercel.app/"} className="hover:text-purple-1 duration-200 w-fit text-sm text-neutral-300">    
                             <li>
                                 Cine Hunt
                             </li>
@@ -37,17 +37,17 @@ const MainFooter = () => {
                         USEFUL LINKS
                     </span>
                     <ul className="flex flex-col space-y-2">
-                        <Link href={"#"} className="hover:text-purple-1 duration-200 w-fit text-sm text-neutral-300">    
+                        <Link href={"/"} className="hover:text-purple-1 duration-200 w-fit text-sm text-neutral-300">    
                             <li>
                                 About
                             </li>
                         </Link>
-                        <Link href={"#"} className="hover:text-purple-1 duration-200 w-fit text-sm text-neutral-300">    
+                        <Link href={"/privacy-policy"} className="hover:text-purple-1 duration-200 w-fit text-sm text-neutral-300">    
                             <li>
                                 Privacy policy
                             </li>
                         </Link>
-                        <Link href={"#"} className="hover:text-purple-1 duration-200 w-fit text-sm text-neutral-300">    
+                        <Link href={"mailto:tuppsoftware@gmail.com"} className="hover:text-purple-1 duration-200 w-fit text-sm text-neutral-300">    
                             <li>
                                 Help
                             </li>
@@ -59,7 +59,7 @@ const MainFooter = () => {
                         CONTACT
                     </span>
                     <ul className="flex flex-col space-y-2">
-                        <Link href={"#"} className="hover:text-purple-1 duration-200 w-fit text-sm text-neutral-300">    
+                        <Link href={"mailto:tuppsoftware@gmail.com"} className="hover:text-purple-1 duration-200 w-fit text-sm text-neutral-300">    
                             <li className="flex space-x-2 items-center">
                                 <FontAwesomeIcon icon={faEnvelope}/>
                                 <span>
@@ -67,7 +67,7 @@ const MainFooter = () => {
                                 </span>
                             </li>
                         </Link>
-                        <Link href={"#"} className="hover:text-purple-1 duration-200 w-fit text-sm text-neutral-300">    
+                        <Link href={"https://www.instagram.com/tuppn_/"} className="hover:text-purple-1 duration-200 w-fit text-sm text-neutral-300">    
                             <li className="flex space-x-2 items-center">
                                 <FontAwesomeIcon icon={faInstagram}/>
                                 <span>
@@ -75,14 +75,14 @@ const MainFooter = () => {
                                 </span>
                             </li>
                         </Link>
-                        <Link href={"#"} className="hover:text-purple-1 duration-200 w-fit text-sm text-neutral-300">    
+                        {/* <Link href={"#"} className="hover:text-purple-1 duration-200 w-fit text-sm text-neutral-300">    
                             <li className="flex space-x-2 items-center">
                                 <FontAwesomeIcon icon={faFacebook}/>
                                 <span>
                                     Tuppn_
                                 </span>
                             </li>
-                        </Link>
+                        </Link> */}
                     </ul>
                 </div>
             </div>

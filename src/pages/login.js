@@ -2,7 +2,6 @@ import MainNavbar from "@/components/ui/mainNavbar";
 import { continueWithGoogleProvider, signInWithEmailPasswordProvider } from "@/functions/authentication";
 import { withoutAuth } from "@/functions/authMiddleware";
 import sanitizeData from "@/functions/sanitizeData";
-import { signInWithEmailAndPassword } from "firebase/auth";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";

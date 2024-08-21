@@ -24,7 +24,7 @@ const MainNavbar = () => {
                     </li>
                     <li>
                         <button className="flex cursor-pointer items-center relative" onClick={() => setIsDropdownOpen(!isDropdownOpen)}>
-                            <div className={`absolute -bottom-36 scale-0 ${isDropdownOpen && "-bottom-[18rem] scale-100"} w-80 border border-purple-1 bg-purple-0.1 rounded text-start px-5 py-4 duration-200 ease-in-out`}>
+                            <div className={`absolute -bottom-36 scale-0 ${isDropdownOpen && "-bottom-[19rem] scale-100"} w-80 border border-purple-1 bg-purple-0.1 rounded text-start px-5 py-4 duration-200 ease-in-out`}>
                                 <span className="text-purple-1 py-2">
                                     Resource
                                 </span>
@@ -38,12 +38,12 @@ const MainNavbar = () => {
                                                 About
                                             </span>
                                             <span className="text-sm text-neutral-700">
-                                                Lorem ipsum dolor sit.
+                                                About our services
                                             </span>
                                         </div>
                                     </div>
                                 </Link>
-                                <Link href={"#"}>
+                                <Link href={"mailto:tuppsoftware@gmail.com"}>
                                     <div className="flex items-center space-x-2 px-3 py-4 w-full hover:bg-purple-100 rounded-lg duration-150">
                                         <div className="bg-purple-100 text-purple-1 px-2 py-1 border border-purple-200 rounded">
                                             <FontAwesomeIcon icon={faContactBook}/>
@@ -53,7 +53,7 @@ const MainNavbar = () => {
                                                 Help Center
                                             </span>
                                             <span className="text-sm text-neutral-700">
-                                                Lorem ipsum dolor sit.
+                                                Need help? contact us
                                             </span>
                                         </div>
                                     </div>
@@ -68,7 +68,7 @@ const MainNavbar = () => {
                                                 Privacy Policy
                                             </span>
                                             <span className="text-sm text-neutral-700">
-                                                Lorem ipsum dolor sit.
+                                                About the terms of our privacy policy
                                             </span>
                                         </div>
                                     </div>
@@ -127,12 +127,12 @@ const MainNavbar = () => {
                                                         About
                                                     </span>
                                                     <span className="text-sm text-neutral-700">
-                                                        Lorem ipsum dolor sit.
+                                                        About our services
                                                     </span>
                                                 </div>
                                             </div>
                                         </Link>
-                                        <Link href={"#"}>
+                                        <Link href={"mailto:tuppsoftware@gmail.com"}>
                                             <div className="flex items-center space-x-2 px-3 py-4 w-full hover:bg-purple-100 rounded-lg duration-150">
                                                 <div className="bg-purple-100 text-purple-1 px-2 py-1 border border-purple-200 rounded">
                                                     <FontAwesomeIcon icon={faContactBook}/>
@@ -142,7 +142,7 @@ const MainNavbar = () => {
                                                         Help Center
                                                     </span>
                                                     <span className="text-sm text-neutral-700">
-                                                        Lorem ipsum dolor sit.
+                                                        Need help? contact us
                                                     </span>
                                                 </div>
                                             </div>
@@ -157,7 +157,7 @@ const MainNavbar = () => {
                                                         Privacy Policy
                                                     </span>
                                                     <span className="text-sm text-neutral-700">
-                                                        Lorem ipsum dolor sit.
+                                                        About the terms of our privacy policy
                                                     </span>
                                                 </div>
                                             </div>
@@ -217,12 +217,12 @@ const MainNavbar = () => {
                                                         About
                                                     </span>
                                                     <span className="text-sm text-neutral-700">
-                                                        Lorem ipsum dolor sit.
+                                                        About our services
                                                     </span>
                                                 </div>
                                             </div>
                                         </Link>
-                                        <Link href={"#"}>
+                                        <Link href={"mailto:tuppsoftware@gmail.com"}>
                                             <div className="flex items-center space-x-2 px-3 py-4 w-full hover:bg-purple-100 rounded-lg duration-150">
                                                 <div className="bg-purple-100 text-purple-1 px-2 py-1 border border-purple-200 rounded">
                                                     <FontAwesomeIcon icon={faContactBook}/>
@@ -232,7 +232,7 @@ const MainNavbar = () => {
                                                         Help Center
                                                     </span>
                                                     <span className="text-sm text-neutral-700">
-                                                        Lorem ipsum dolor sit.
+                                                        Need help? contact us
                                                     </span>
                                                 </div>
                                             </div>
@@ -247,7 +247,7 @@ const MainNavbar = () => {
                                                         Privacy Policy
                                                     </span>
                                                     <span className="text-sm text-neutral-700">
-                                                        Lorem ipsum dolor sit.
+                                                        About the terms of our privacy policy
                                                     </span>
                                                 </div>
                                             </div>

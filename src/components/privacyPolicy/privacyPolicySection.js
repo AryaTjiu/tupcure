@@ -2,9 +2,9 @@ import Link from "next/link";
 
 const PrivacyPolicySection = () => {
     return (
-        <section className="px-52 pt-32 pb-20 flex justify-between">
-            <div className="w-[70%] flex flex-col" id="privacy-policy">
-                <div className="mb-10 text-xl">
+        <section className="w-full px-10 md:px-16 lg:px-28 2xl:px-52 pt-20 md:pt-28 xl:pt-32 pb-32 xl:pb-40 flex justify-between overflow-hidden">
+            <div className="w-full lg:w-[80%] xl:w-[70%] flex flex-col" id="privacy-policy">
+                <div className="mb-6 xl:mb-10 text-xl">
                     <Link href={"/"} className="hover:text-purple-1 duration-200">Home</Link>
                     <span className="mx-2">/</span>
                     <Link href={"#"} className="text-purple-1 hover:text-cyan-600 duration-200">Privacy-Policy</Link>
@@ -67,7 +67,7 @@ const PrivacyPolicySection = () => {
                         </li>
                         <li>
                             Website refers to tupcure, accessible from
-                            <Link href="#" className="ml-2 text-purple-1">
+                            <Link href="#" className="ml-2 text-purple-1 text-wrap">
                                 https://www.tupcure.vercel.app
                             </Link>
                         </li>
@@ -389,7 +389,7 @@ const PrivacyPolicySection = () => {
                     </ul>
                 </div>
             </div>
-            <div className="flex flex-col">
+            <div className="hidden lg:flex flex-col">
                 <h6 className="text-xl text-neutral-600 mb-3">ON THIS PAGE</h6>
                 <Link href={"#privacy-policy"} className="text-purple-1">
                     Privacy Policy

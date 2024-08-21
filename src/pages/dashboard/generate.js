@@ -1,4 +1,3 @@
-import Head from "next/head"
 import DashboardLayout from "./layout/dashboardLayout";
 import PasswordGeneratorSection from "@/components/dashboard/passwordGeneratorSection/passwordGeneratorSection";
 
