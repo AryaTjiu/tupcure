@@ -28,7 +28,7 @@ const AlertSection = ({text, setTextAlertValue}) => {
      }, [text])
     
     return (
-        <section className={`fixed px-3 xl:px-10 h-16 xl:h-20 bottom-10 -left-full border w-[70vw] md:w-[40vw] xl:min-w-96 bg-purple-1 text-white flex justify-between items-center rounded-md text-sm xl:text-lg duration-150`} ref={alertRef}>
+        <section className={`fixed px-3 xl:px-10 h-16 xl:h-20 bottom-10 -left-full border w-[70vw] md:w-[40vw] xl:w-96 bg-purple-1 text-white flex justify-between items-center rounded-md text-sm xl:text-lg duration-150 z-30`} ref={alertRef}>
             <span>
                 {text}
             </span>

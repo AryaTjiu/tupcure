@@ -38,9 +38,9 @@ const ErrorAlertSection = ({data, setData}) => {
     }
     
     return (
-        <section className={`absolute px-5 xl:px-10 h-16 xl:h-20 bottom-10 -left-full border w-[80vw] xl:w-96 bg-[#ff003c] text-white flex justify-between items-center space-x-4 rounded-md text-sm xl:text-lg duration-150`} ref={alertRef}>
+        <section className={`absolute px-5 xl:px-10 h-16 xl:h-20 bottom-10 -left-full border w-[80vw] md:w-[50vw] lg:w-[35vw] xl:w-96 bg-[#ff003c] text-white flex justify-between items-center space-x-4 rounded-md text-sm xl:text-lg duration-150`} ref={alertRef}>
             <span>
-                {data.message}
+                {data && data.message}
             </span>
             <button className="hover:scale-110 duration-200" onClick={closeAlert}>
                 <FontAwesomeIcon icon={faCircleXmark} className="text-xl"/>

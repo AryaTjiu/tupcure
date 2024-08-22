@@ -8,6 +8,7 @@ import { doc, updateDoc } from "firebase/firestore";
 import { useRouter } from "next/router";
 import ErrorAlertSection from "@/components/ui/errorAlertSection";
 import { useState } from "react";
+import { withAuth } from "@/functions/authMiddleware";
 
 const VerificationSection = () => {
     const [isVerificationEmailHasSent, setIsVerificationEmailHasSent] = useState(false);
@@ -102,4 +103,4 @@ const VerificationSection = () => {
     )
 }
 
-export default VerificationSection;
+export default withAuth(VerificationSection);

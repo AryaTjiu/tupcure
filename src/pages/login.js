@@ -132,7 +132,7 @@ const Login = () => {
                                 Forgot password?
                             </Link>
                             <p>
-                                Dont have an account? <Link href={"#"} className="text-purple-1 hover:text-cyan-500 duration-150">choose a plan</Link> and get started now
+                                Dont have an account? <Link href={"/signup"} className="text-purple-1 hover:text-cyan-500 duration-150">choose a plan</Link> and get started now
                             </p>
                         </div>
                     </div>

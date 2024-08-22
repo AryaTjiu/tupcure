@@ -262,7 +262,7 @@ const Signup = () => {
                                 </button>
                             </form>
                             <p>
-                                You have an account? <Link href={"login"} className="text-purple-1 hover:text-cyan-500 duration-150">Sign in</Link> now
+                                You have an account? <Link href={"/login"} className="text-purple-1 hover:text-cyan-500 duration-150">Sign in</Link> now
                             </p>
                         </div>
                     </div>
